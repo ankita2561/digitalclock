@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    background: url(rock.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    overflow: hidden;
+}
+h2{
+    letter-spacing: 5px;
+    color:#F7F7F7 ;
+    font-size: 40px;
+    /* border: 5px solid yellowgreen; */
+    padding: 10px;
+}
+/* span{
+    color: aqua;
+} */
+.clock{
+    display: flex;
+    /* border: 5px solid green; */
+}
+.clock div{
+    /* border: 4px solid yellow; */
+    margin: 5px;
+    position: relative;
+    /* background-color: #594545; */
+    position: relative;
+}
+.clock span{
+   /* justify-content: center; */
+    /* position: relative; */
+    width: 100px;
+    height: 80px;
+    /* background-color: blue; */
+    opacity: 0.9;
+    font-size: 20px;
+    color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #F7F7F7;
+    position: relative;
+    /* letter-spacing: 4px; */
+    margin-top: 10px;
+   
+}
+#hrs{
+    font-size: 50px;
+}
+#min{
+    font-size: 50px;
+}
+#sec{
+    font-size: 50px;
+}
+#ampm{
+    font-size: 40px;
+    position:absolute;
+   justify-content: center;
+    width: 60px;
+    height: 30px;
+    font-size: 40px;
+    align-items: center;
+    color: #F7F7F7;
+    /* border: 5px solid blue; */
+    height: 80px;
+    width: 100px;
+    /* bottom: 0; */
+    margin-top: 70px;
+}
+
